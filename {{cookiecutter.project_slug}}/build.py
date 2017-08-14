@@ -16,7 +16,7 @@ def initialize(project):
         project.version = "0.0.999"
     #Project Manifest
     project.summary = "{{cookiecutter.project_name}}"
-    project.home_page = "{cookiecutter.repository_url}}"
+    project.home_page = "{{cookiecutter.repository_url}}"
     project.description = "{{cookiecutter.description}}"
     project.author = "{{cookiecutter.owner}}"
     project.url = "{{cookiecutter.repository_url}}"
